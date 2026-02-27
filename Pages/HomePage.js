@@ -4,7 +4,7 @@ class HomePage {
   constructor(page) {
     this.page = page;
 
-    this.homeBtn = "a:has-text('Home')";
+    this.homeBtn = "a:has-text('Home1')";
     this.productList = "#article";
     this.product = "//p[contains(text(),'The Motorola Google Nexus 6')]";
     this.addToCartBtn = "//a[normalize-space()='Add to cart']";
